@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+bun.lock
+bun.lockb
+.env
+dist
+.git
+.gitignore
+*.md
