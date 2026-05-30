@@ -2,7 +2,8 @@ node_modules
 npm-debug.log
 bun.lock
 bun.lockb
-.env
+**/.env
+**/.env.*
 dist
 .git
 .gitignore
