@@ -27,16 +27,18 @@ const Navbar = () => {
   };
 
   const getLinks = () => {
+    const baseLinks = [
+      { label: "Home", path: "/" },
+      { label: "Contact", path: "/contact" },
+    ];
     if (isAuth) {
       return [
+        ...baseLinks,
         { label: "Evaluations", path: "/your-resumes" },
         { label: "History", path: "/history" }
       ];
     }
-    return [
-      { label: "Home", path: "/" },
-      { label: "Contact", path: "/contact" },
-    ];
+    return baseLinks;
   };
 
   const links = getLinks();
@@ -53,7 +55,7 @@ const Navbar = () => {
       )}
 
       <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
-        <div className="navbar-logo" onClick={() => handleNav(isAuth ? "/your-resumes" : "/")}>
+        <div className="navbar-logo" onClick={() => handleNav("/")}>
           <span className="logo-star">✦</span>
           <span className="logo-text">ResumeIQ</span>
         </div>
