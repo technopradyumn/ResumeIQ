@@ -17,6 +17,10 @@ __pycache__/
 backend_py/__pycache__/
 *.pyc
 
+# Virtual Environments
+venv/
+backend_py/venv/
+
 # Build output
 frontend/dist/
 frontend/build/
