@@ -8,7 +8,15 @@ import os
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Initialize Beanie and connect to DB
-    await init_db()
+    try:
+        print("Attempting to connect to the database...")
+        await init_db()
+        print("Successfully connected to the database and initialized Beanie.")
+    except Exception as e:
+        print(f"CRITICAL ERROR DURING STARTUP: {e}")
+        import traceback
+        traceback.print_exc()
+        raise e
     yield
     # Cleanup if needed
 
