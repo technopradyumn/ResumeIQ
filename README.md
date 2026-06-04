@@ -4,7 +4,7 @@
 
 ### Production-Grade AI Resume Optimization Engine
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-ats--resume--9807.onrender.com-00c896?style=for-the-badge)](https://ats-resume-9807.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-resumeiq--m98f.onrender.com-00c896?style=for-the-badge)](https://resumeiq-m98f.onrender.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python_3.11-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
